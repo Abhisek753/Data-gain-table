@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="left-part w-full md:w-[40%] flex justify-between px-4 items-center mb-4 md:mb-0">
           {/* Logo */}
           <div className="logo">
-            <Image src={summaryIcon} alt="logo" className="w-[85%]" />
+            <Image src={summaryIcon} alt="logo"  className="w-[85%]" />
           </div>
 
           {/* Client Workspace */}
