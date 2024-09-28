@@ -13,13 +13,13 @@ import SummaryIcon from "../summary.png";
 import Image from "next/image";
 
 const sidebarItems = [
-  { name: "Dashboard", icon: DashboardIcon, route: "/dashboard" },
-  { name: "Accounts", icon: AccountsIcon, route: "/accounts" },
-  { name: "Batches", icon: BatchesIcon, route: "/batches" },
-  { name: "Resolution", icon: ResolutionIcon, route: "/resolution" },
-  { name: "Assessments", icon: AssessmentsIcon, route: "/assessments" },
-  { name: "Appeal Letter", icon: AppealIcon, route: "/appeal-letter" },
-  { name: "Summary",icon: SummaryIcon, route: "/summary" },
+  { name: "Dashboard", icon: DashboardIcon, route: "/" },
+  { name: "Accounts", icon: AccountsIcon, route: "/" },
+  { name: "Batches", icon: BatchesIcon, route: "/" },
+  { name: "Resolution", icon: ResolutionIcon, route: "/" },
+  { name: "Assessments", icon: AssessmentsIcon, route: "/" },
+  { name: "Appeal Letter", icon: AppealIcon, route: "/" },
+  { name: "Summary",icon: SummaryIcon, route: "/" },
 ];
 
 const Sidebar = () => {
