@@ -19,7 +19,7 @@ const sidebarItems = [
   { name: "Resolution", icon: ResolutionIcon, route: "/resolution" },
   { name: "Assessments", icon: AssessmentsIcon, route: "/assessments" },
   { name: "Appeal Letter", icon: AppealIcon, route: "/appeal-letter" },
-  { name: "Summary", icon: SummaryIcon, route: "/summary" },
+  { name: "Summary",icon: SummaryIcon, route: "/summary" },
 ];
 
 const Sidebar = () => {
