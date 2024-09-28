@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
 
           {/* Icons */}
-          <div className="right-logo flex justify-end items-center gap-4 w-full md:w-[25%]">
+          <div className="right-logo flex justify-end items-center pr-2 gap-4 w-full md:w-[25%]">
             <Image src={GWLOGO} alt="logo" className="w-[25px] h-[25px]" />
             <Image src={Ak} alt="logo" className="w-[25px] h-[25px]" />
             <Image src={Stick} alt="divider" className="w-[2px] h-[25px]" />
