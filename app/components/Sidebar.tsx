@@ -48,9 +48,7 @@ const Sidebar = () => {
             key={index}
             className={`flex items-center  font-medium text-sm ${
               isExpanded ? "justify-start" : "justify-center"
-            } px-2 py-3 rounded-lg hover:bg-[#567189] ${
-              item.name === "Appeal Letter" ? "bg-[#567189]" : ""
-            }`}
+            } px-2 py-3 rounded-lg hover:bg-[#567189]`}
           >
             {/* Icon */}
             <div className="flex items-center">
