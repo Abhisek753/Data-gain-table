@@ -199,7 +199,6 @@ const Table = () => {
   return (
     <div className="flex flex-col px-4 pt-4">
       <div className="-m-1.5 overflow-x-auto">
-        {/* Container that limits table width to 60% of the page */}
         <div className="p-1.5 w-full mx-auto">
           <div className="border rounded-lg divide-y divide-gray-200">
             {/* Search */}
@@ -254,7 +253,6 @@ const Table = () => {
             {/* Scrollable Table */}
             <div className="overflow-x-auto h-[60vh]  overflow-scroll">
               <table className="min-w-[1500px] divide-y divide-gray-200 relative ">
-                {/* Table's min width ensures horizontal scroll */}
                 <thead className="bg-gray-50">
                   <tr>
                     <th

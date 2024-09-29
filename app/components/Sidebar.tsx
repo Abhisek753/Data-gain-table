@@ -34,7 +34,6 @@ const Sidebar = () => {
       className={`bg-[#2C4E6C] text-white h-[100%] flex flex-col justify-between ${
         isExpanded ? "w-[212px]" : "w-[64px]"
       } p-4 rounded-lg transition-all duration-300`}
-      // Removed relative positioning and top, left styles
     >
       {/* Toggle Button */}
       <div className="flex items-center justify-end mb-6">
@@ -43,7 +42,6 @@ const Sidebar = () => {
         </button>
       </div>
 
-      {/* Sidebar Items */}
       <ul className="flex-grow mt-2 space-y-2">
         {sidebarItems.map((item, index) => (
           <li
@@ -58,7 +56,6 @@ const Sidebar = () => {
             <div className="flex items-center">
               <Image src={item.icon} alt={`${item.name} icon`} width={24} height={24} />
             </div>
-            {/* Text (hidden when collapsed) */}
             {isExpanded && (
               <Link href={item.route}>
                 <span className="ml-4 text-sm">{item.name}</span>
@@ -68,7 +65,6 @@ const Sidebar = () => {
         ))}
       </ul>
 
-      {/* Settings and Logout at the Bottom */}
       <div className="flex flex-col items-center mt-auto">
         {/* Settings */}
         <div className="flex items-center w-full px-4 py-2 text-sm text-white">
